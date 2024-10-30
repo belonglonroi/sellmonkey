@@ -1,0 +1,47 @@
+{
+  "site": {
+    "title": "Leadsgen",
+    "base_url": "/",
+    "favicon": "/images/favicon.ico",
+    "logo": "/images/sellmonkey-logo.svg",
+    "logo_width": "200",
+    "logo_height": "48",
+    "logo_text": "Leadsgen"
+  },
+  "settings": {
+    "pagination": 4,
+    "summary_length": 200,
+    "blog_folder": "blogs"
+  },
+  "nav_button": {
+    "enable": true,
+    "label": "Get Started",
+    "link": "/contact"
+  },
+  "params": {
+    "contact_form_action": "",
+    "tag_manager_id": "",
+    "footer_content": "Lorem ipsum dolor sit amet, consectetur elit. Consjat tristique eget amet, tempus eu at cttur.",
+    "copyright": "Designed and Developed By [Leadsgen]"
+  },
+  "metadata": {
+    "meta_author": "Leadsgen",
+    "meta_image": "",
+    "meta_description": "A SAAS template for nextjs"
+  },
+  "footer": {
+    "logo": "/images/footer-logo.svg",
+    "description": "SellMonkey - A member of LeadsGen Group",
+    "contact": {
+      "phone": "+1 (305) 547-9909",
+      "email": "support@sellmonkey.com",
+      "website": "https://sellmonkey.com"
+    },
+    "address": {
+      "US": "Leadsgen USA LLC - 30 N Gould St Ste 2514 Sheridan, WY 82801",
+      "Singapore": "LeadsGen Media Pte, Ltd - 16 Raffles Quay #16-02 Hong Leong Building Singapore (048581)",
+      "EU": "Leadsgen Europe OÜ - Harju maakond, Tallinn, Pirita linnaosa, Padriku tee 12/3-4, 11912",
+      "Vietnam": "LeadsGen Media and Online Solution Company Limited - 4th Floor, Rainbow Office Building, Van Quan ward, Ha Dong Dist, Hanoi, Vietnam"
+    }
+  }
+}

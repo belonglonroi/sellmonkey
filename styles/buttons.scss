@@ -1,0 +1,40 @@
+.btn {
+  @apply inline-block font-primary font-bold border px-7 py-[13px] leading-[18px] transition;
+}
+
+.btn-primary {
+  @apply  bg-dark text-white border-transparent z-[1] rounded-[6px] relative hover:shadow-[0_12px_24px_-6px_rgba(45,67,121,.1)] transition-all;
+
+  &:after {
+    @apply w-full h-full rounded-[6px] absolute left-1/2 top-1/2 translate-x-[-50%]  translate-y-[-50%] content-[''] bg-dark transition-all duration-300 ease-in-out -z-[1];
+  }
+  &:hover::after {
+    @apply  w-[110%] h-[110%] 
+  }
+}
+
+.btn-outline-primary {
+  @apply relative text-text border-0 bg-transparent rounded-[6px] hover:border-transparent hover:text-primary;
+
+  &:after {
+    @apply w-full h-full rounded-[6px] absolute left-1/2 top-1/2 translate-x-[-50%]  translate-y-[-50%] content-[''] bg-transparent border border-primary transition-all duration-300 ease-in-out z-[0];
+  }
+  &:hover::after {
+    @apply  w-[110%] h-[110%];
+  }
+}
+
+.btn-secondary {
+  @apply  bg-white text-dark border-transparent z-[1] rounded-[6px] relative hover:shadow-[0_12px_24px_-6px_rgba(45,67,121,.1)] transition-all;
+
+  &:after {
+    @apply w-full h-full rounded-[6px] absolute left-1/2 top-1/2 translate-x-[-50%]  translate-y-[-50%] content-[''] bg-white transition-all duration-300 ease-in-out -z-[1];
+  }
+  &:hover::after {
+    @apply  w-[110%] h-[110%] 
+  }
+}
+
+.badge {
+  @apply bg-primary/20 text-sm text-primary rounded-[27px] px-5 py-[6px];
+}
